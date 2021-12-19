@@ -29,8 +29,8 @@ pipeline {
                                                      }
                                                      }
                                stage('Integration Test') {
-                                           agent {
-                                                   docker {
+                                      agent {
+                                             docker {
                                                          reuseNode false
                                                          image 'Ubuntu'
                                                          }
