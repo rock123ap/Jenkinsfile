@@ -34,7 +34,7 @@ pipeline {
                                                          reuseNode false
                                                          image 'Ubuntu'
                                                          }
-                                                 }
+                                                 
                                                  steps {
                                                       echo 'Running the integration test'
                                                       }
